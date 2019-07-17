@@ -13,6 +13,7 @@
 		1889256022DF972E00EDEC6C /* seeinghoping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1889255E22DF972E00EDEC6C /* seeinghoping.xcdatamodeld */; };
 		1889256222DF972F00EDEC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1889256122DF972F00EDEC6C /* Assets.xcassets */; };
 		1889256522DF972F00EDEC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1889256322DF972F00EDEC6C /* LaunchScreen.storyboard */; };
+		1889256D22DFDC1A00EDEC6C /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889256C22DFDC1A00EDEC6C /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1889256122DF972F00EDEC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1889256422DF972F00EDEC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1889256622DF972F00EDEC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1889256C22DFDC1A00EDEC6C /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1889255722DF972E00EDEC6C /* AppDelegate.swift */,
 				1889255922DF972E00EDEC6C /* ViewController.swift */,
 				1889255B22DF972E00EDEC6C /* Main.storyboard */,
+				1889256C22DFDC1A00EDEC6C /* MusicViewController.swift */,
 				1889256122DF972F00EDEC6C /* Assets.xcassets */,
 				1889256322DF972F00EDEC6C /* LaunchScreen.storyboard */,
 				1889256622DF972F00EDEC6C /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1889256D22DFDC1A00EDEC6C /* MusicViewController.swift in Sources */,
 				1889256022DF972E00EDEC6C /* seeinghoping.xcdatamodeld in Sources */,
 				1889255A22DF972E00EDEC6C /* ViewController.swift in Sources */,
 				1889255822DF972E00EDEC6C /* AppDelegate.swift in Sources */,
