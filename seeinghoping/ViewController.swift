@@ -43,24 +43,66 @@ class ViewController: UIViewController {
     
     
     
+    
+    
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let alert = UIAlertController(title: "What's your name?", message: nil, preferredStyle: .alert)
-        
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        
-        alert.addTextField(configurationHandler: { textField in textField.placeholder = "Input your name here..."
-        })
-        
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
-            
-            if let name = alert.textFields?.first?.text {
-                print("Welcome: \(name)")
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        if appDelegate.name == "" {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+             let store = StoreName(entity: StoreName.entity(), insertInto: context)
+            if store.name == "\"\"" {
+                let alert = UIAlertController(title: "What's your name?", message: nil, preferredStyle: .alert)
+                
+                alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+                
+                alert.addTextField(configurationHandler: { textField in textField.placeholder = "Input your name here..."
+                })
+                
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+                    
+                                if let name = alert.textFields?.first?.text {
+                                    store.name = name
+                                    self.nameLabel.text = store.name
+//                                    print("Welcome: \(name)")
+//                                    print(appDelegate.name)
+                                }
+                }))
+                
+                self.present(alert, animated: true)
             }
-        }))
+            else {
+                self.nameLabel.text = store.name
+            }
+                
+        }
+            
+//        let alert = UIAlertController(title: "What's your name?", message: nil, preferredStyle: .alert)
+//
+//        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+//
+//        alert.addTextField(configurationHandler: { textField in textField.placeholder = "Input your name here..."
+//        })
+//
+//        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+//
+////            if let name = alert.textFields?.first?.text {
+////                appDelegate.name = name
+////                self.nameLabel.text = appDelegate.name
+////                print("Welcome: \(name)")
+////                print(appDelegate.name)
+////            }
+//        }))
+//
+//        self.present(alert, animated: true)
+//        }
+//
+//        nameLabel.text = appDelegate.name
         
-        self.present(alert, animated: true)
     }
 
 

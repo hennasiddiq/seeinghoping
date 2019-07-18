@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18768A8C22E12B2200243771 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18768A8B22E12B2200243771 /* WebKit.framework */; };
+		18768A8E22E12BC300243771 /* WalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A8D22E12BC300243771 /* WalkViewController.swift */; };
+		18768A9022E1372900243771 /* BreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A8F22E1372900243771 /* BreatheViewController.swift */; };
+		18768A9222E1398700243771 /* YogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A9122E1398700243771 /* YogaViewController.swift */; };
 		1889255822DF972E00EDEC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889255722DF972E00EDEC6C /* AppDelegate.swift */; };
 		1889255A22DF972E00EDEC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889255922DF972E00EDEC6C /* ViewController.swift */; };
 		1889255D22DF972E00EDEC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1889255B22DF972E00EDEC6C /* Main.storyboard */; };
@@ -14,9 +18,14 @@
 		1889256222DF972F00EDEC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1889256122DF972F00EDEC6C /* Assets.xcassets */; };
 		1889256522DF972F00EDEC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1889256322DF972F00EDEC6C /* LaunchScreen.storyboard */; };
 		1889256D22DFDC1A00EDEC6C /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889256C22DFDC1A00EDEC6C /* MusicViewController.swift */; };
+		1889256F22E0EB3A00EDEC6C /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889256E22E0EB3A00EDEC6C /* JokeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18768A8B22E12B2200243771 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		18768A8D22E12BC300243771 /* WalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkViewController.swift; sourceTree = "<group>"; };
+		18768A8F22E1372900243771 /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
+		18768A9122E1398700243771 /* YogaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaViewController.swift; sourceTree = "<group>"; };
 		1889255422DF972E00EDEC6C /* seeinghoping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seeinghoping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1889255722DF972E00EDEC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1889255922DF972E00EDEC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +35,7 @@
 		1889256422DF972F00EDEC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1889256622DF972F00EDEC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1889256C22DFDC1A00EDEC6C /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		1889256E22E0EB3A00EDEC6C /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18768A8C22E12B2200243771 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18768A8A22E12B2200243771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18768A8B22E12B2200243771 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1889254B22DF972E00EDEC6C = {
 			isa = PBXGroup;
 			children = (
 				1889255622DF972E00EDEC6C /* seeinghoping */,
 				1889255522DF972E00EDEC6C /* Products */,
+				18768A8A22E12B2200243771 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +81,10 @@
 				1889255722DF972E00EDEC6C /* AppDelegate.swift */,
 				1889255922DF972E00EDEC6C /* ViewController.swift */,
 				1889255B22DF972E00EDEC6C /* Main.storyboard */,
+				18768A8D22E12BC300243771 /* WalkViewController.swift */,
+				18768A8F22E1372900243771 /* BreatheViewController.swift */,
+				18768A9122E1398700243771 /* YogaViewController.swift */,
+				1889256E22E0EB3A00EDEC6C /* JokeViewController.swift */,
 				1889256C22DFDC1A00EDEC6C /* MusicViewController.swift */,
 				1889256122DF972F00EDEC6C /* Assets.xcassets */,
 				1889256322DF972F00EDEC6C /* LaunchScreen.storyboard */,
@@ -141,10 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1889256F22E0EB3A00EDEC6C /* JokeViewController.swift in Sources */,
 				1889256D22DFDC1A00EDEC6C /* MusicViewController.swift in Sources */,
+				18768A9222E1398700243771 /* YogaViewController.swift in Sources */,
 				1889256022DF972E00EDEC6C /* seeinghoping.xcdatamodeld in Sources */,
 				1889255A22DF972E00EDEC6C /* ViewController.swift in Sources */,
 				1889255822DF972E00EDEC6C /* AppDelegate.swift in Sources */,
+				18768A9022E1372900243771 /* BreatheViewController.swift in Sources */,
+				18768A8E22E12BC300243771 /* WalkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
