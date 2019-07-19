@@ -11,6 +11,12 @@
 		18768A8E22E12BC300243771 /* WalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A8D22E12BC300243771 /* WalkViewController.swift */; };
 		18768A9022E1372900243771 /* BreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A8F22E1372900243771 /* BreatheViewController.swift */; };
 		18768A9222E1398700243771 /* YogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A9122E1398700243771 /* YogaViewController.swift */; };
+		18768A9422E21BF200243771 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A9322E21BF200243771 /* FoodViewController.swift */; };
+		18768A9622E21F3F00243771 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A9522E21F3F00243771 /* SleepViewController.swift */; };
+		18768A9822E224F100243771 /* rain-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18768A9722E224F100243771 /* rain-01.mp3 */; };
+		18768A9A22E2250800243771 /* Rainforest-sounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18768A9922E2250800243771 /* Rainforest-sounds.mp3 */; };
+		18768A9C22E2251200243771 /* Waves-mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18768A9B22E2251200243771 /* Waves-mp3.mp3 */; };
+		18768A9E22E227CA00243771 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18768A9D22E227CA00243771 /* ResourcesViewController.swift */; };
 		1889255822DF972E00EDEC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889255722DF972E00EDEC6C /* AppDelegate.swift */; };
 		1889255A22DF972E00EDEC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889255922DF972E00EDEC6C /* ViewController.swift */; };
 		1889255D22DF972E00EDEC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1889255B22DF972E00EDEC6C /* Main.storyboard */; };
@@ -26,6 +32,12 @@
 		18768A8D22E12BC300243771 /* WalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkViewController.swift; sourceTree = "<group>"; };
 		18768A8F22E1372900243771 /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
 		18768A9122E1398700243771 /* YogaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaViewController.swift; sourceTree = "<group>"; };
+		18768A9322E21BF200243771 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		18768A9522E21F3F00243771 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		18768A9722E224F100243771 /* rain-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "rain-01.mp3"; path = "../../../../Music/rain-01/rain-01.mp3"; sourceTree = "<group>"; };
+		18768A9922E2250800243771 /* Rainforest-sounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Rainforest-sounds.mp3"; path = "../../../../Music/Rainforest-sounds/Rainforest-sounds.mp3"; sourceTree = "<group>"; };
+		18768A9B22E2251200243771 /* Waves-mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Waves-mp3.mp3"; path = "../../../../Music/Waves-mp3/Waves-mp3.mp3"; sourceTree = "<group>"; };
+		18768A9D22E227CA00243771 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		1889255422DF972E00EDEC6C /* seeinghoping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seeinghoping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1889255722DF972E00EDEC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1889255922DF972E00EDEC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +93,9 @@
 				1889255722DF972E00EDEC6C /* AppDelegate.swift */,
 				1889255922DF972E00EDEC6C /* ViewController.swift */,
 				1889255B22DF972E00EDEC6C /* Main.storyboard */,
+				18768A9D22E227CA00243771 /* ResourcesViewController.swift */,
+				18768A9522E21F3F00243771 /* SleepViewController.swift */,
+				18768A9322E21BF200243771 /* FoodViewController.swift */,
 				18768A8D22E12BC300243771 /* WalkViewController.swift */,
 				18768A8F22E1372900243771 /* BreatheViewController.swift */,
 				18768A9122E1398700243771 /* YogaViewController.swift */,
@@ -88,6 +103,9 @@
 				1889256C22DFDC1A00EDEC6C /* MusicViewController.swift */,
 				1889256122DF972F00EDEC6C /* Assets.xcassets */,
 				1889256322DF972F00EDEC6C /* LaunchScreen.storyboard */,
+				18768A9722E224F100243771 /* rain-01.mp3 */,
+				18768A9922E2250800243771 /* Rainforest-sounds.mp3 */,
+				18768A9B22E2251200243771 /* Waves-mp3.mp3 */,
 				1889256622DF972F00EDEC6C /* Info.plist */,
 				1889255E22DF972E00EDEC6C /* seeinghoping.xcdatamodeld */,
 			);
@@ -153,8 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1889256522DF972F00EDEC6C /* LaunchScreen.storyboard in Resources */,
+				18768A9822E224F100243771 /* rain-01.mp3 in Resources */,
 				1889256222DF972F00EDEC6C /* Assets.xcassets in Resources */,
 				1889255D22DF972E00EDEC6C /* Main.storyboard in Resources */,
+				18768A9C22E2251200243771 /* Waves-mp3.mp3 in Resources */,
+				18768A9A22E2250800243771 /* Rainforest-sounds.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,10 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18768A9E22E227CA00243771 /* ResourcesViewController.swift in Sources */,
 				1889256F22E0EB3A00EDEC6C /* JokeViewController.swift in Sources */,
 				1889256D22DFDC1A00EDEC6C /* MusicViewController.swift in Sources */,
+				18768A9622E21F3F00243771 /* SleepViewController.swift in Sources */,
 				18768A9222E1398700243771 /* YogaViewController.swift in Sources */,
 				1889256022DF972E00EDEC6C /* seeinghoping.xcdatamodeld in Sources */,
+				18768A9422E21BF200243771 /* FoodViewController.swift in Sources */,
 				1889255A22DF972E00EDEC6C /* ViewController.swift in Sources */,
 				1889255822DF972E00EDEC6C /* AppDelegate.swift in Sources */,
 				18768A9022E1372900243771 /* BreatheViewController.swift in Sources */,
